@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shippzi</title>
+
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="css/responsive.css"/>
+  <link rel="stylesheet" href="css/animations.css"/>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<!-- TOP BAR -->
+<div class="topbar">
+  <div class="top-right">
+    📞 +91 7893024466 | ✉ support@shippzi.com
+  </div>
+</div>
+
+<!-- MAIN NAVBAR -->
+<header class="navbar">
+  <div class="nav-container">
+
+    <!-- LOGO -->
+    <div class="logo">
+      <img src="assets/logo.png" alt="Shippzi Logo">
+    </div>
+
+     <!-- HAMBURGER ICON -->
+    <div class="menu-toggle">
+  <i class="fas fa-bars"></i>
+</div>
+    <!-- MENU -->
+    <nav class="nav-links" id="navLinks">
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Sectors</a>
+      <a href="#">Clients</a>
+    </nav>
+
+    <!-- BUTTONS -->
+    <div class="nav-buttons">
+      <button class="btn green">Download App</button>
+      <button class="btn light">Become a Rider</button>
+      <button class="btn dark">Partner Portal</button>
+    </div>
+
+    <!-- MOBILE MENU ICON -->
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
+  </div>
+</header>
+
+
+<section class="hero">
+
+  <div class="hero-slider">
+
+  <!-- IMAGE SLIDE -->
+  <div class="slide active">
+    <img src="https://img.freepik.com/free-photo/food-delivery-boy-delivering-food-scooter_1303-27695.jpg?semt=ais_incoming&w=740&q=80" />
+  </div>
+
+  <!-- VIDEO SLIDE -->
+  <div class="slide">
+    <video autoplay muted loop playsinline>
+      <source src="assets/animation.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <!-- IMAGE SLIDE -->
+  <div class="slide">
+    <img src="https://media.istockphoto.com/id/1307965024/photo/a-delivery-biker-looking-over-their-shoulder.jpg?s=612x612&w=0&k=20&c=DK5g-hIdtWhz4JmjWl4oGFWST-FDuyOlHMfrdJzmJIo=" />
+  </div>
+
+</div>
+
+  <!-- OVERLAY -->
+  <div class="overlay"></div>
+
+  <!-- CONTENT -->
+  <div class="hero-content">
+    <h1>You Focus on Business. We Take Care of Deliveries</h1>
+
+    <h2 class="why-title">Why Shippzi?</h2>
+
+    <div class="tags">
+      <span>AI-powered last-mile delivery</span>
+      <span>Tech-driven last-mile delivery</span>
+      <span>Instant order insights</span>
+      <span>Built-to-scale operations</span>
+    </div>
+  </div>
+
+  <!-- DOTS -->
+  <div class="dots">
+    <span class="dot active"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+
+</section>
+<!-- ABOUT -->
+<!-- <section class="about">
+  <h2>Moving the world, delivery at a time.</h2>
+  <p>Technology-driven logistics for fast & reliable delivery.</p>
+</section> -->
+
+<!-- COUNTER -->
+<!-- <section class="counter">
+  <div class="count-box">
+    <h2 class="count" data-target="50000000">0</h2>
+    <p>Deliveries</p>
+  </div>
+  <div class="count-box">
+    <h2 class="count" data-target="120000">0</h2>
+    <p>Riders</p>
+  </div>
+  <div class="count-box">
+    <h2 class="count" data-target="45">0</h2>
+    <p>Cities</p>
+  </div>
+  <div class="count-box">
+    <h2 class="count" data-target="99">0</h2>
+    <p>On-Time</p>
+  </div>
+</section> -->
+
+<!-- SERVICES -->
+<!-- <section class="services">
+  <h2>Our Services</h2>
+
+  <div class="service-grid">
+    <div class="card">Express Delivery</div>
+    <div class="card">Pickup & Drop</div>
+    <div class="card">Scheduled Delivery</div>
+  </div>
+</section> -->
+
+<!-- RIDER -->
+<!-- <section class="rider">
+  <div class="rider-left">
+    <img src="assets/images/riders/rider.png"/>
+  </div>
+  <div class="rider-right">
+    <h2>RIDERS</h2>
+    <p>Verified, trained & trusted delivery partners.</p>
+  </div>
+</section> -->
+
+<!-- CTA -->
+<!-- <section class="cta">
+  <h2>Download the app now!</h2>
+  <button class="btn">Get App</button>
+</section> -->
+
+<!-- FOOTER -->
+<footer class="footer">
+
+  <div class="footer-container">
+
+    <!-- LEFT LOGO -->
+    <div class="footer-col logo-col">
+      <img src="assets/white tr.png" class="footer-logo"/>
+
+      <p class="app-text">Download the Shippzi App Now!</p>
+
+      <img src="https://play.google.com/store" class="playstore"/>
+
+      <p class="small-text">Available on Google Play & App Store</p>
+    </div>
+
+    <!-- QUICK LINKS -->
+    <div class="footer-col">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Become a Rider</a></li>
+        <li><a href="#">Partner with Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms & Conditions</a></li>
+      </ul>
+    </div>
+
+    <!-- SERVICES -->
+    <div class="footer-col">
+      <h3>Services</h3>
+      <ul>
+        <li><a href="#">Grocery Delivery</a></li>
+        <li><a href="#">Food Delivery</a></li>
+      </ul>
+    </div>
+
+    <!-- PARTNER -->
+    <div class="footer-col">
+      <h3>Partner</h3>
+      <ul>
+        <li><a href="#">Partner Registration</a></li>
+        <li><a href="#">Rider Registration</a></li>
+        <li><a href="#">Partner Support</a></li>
+      </ul>
+    </div>
+
+    <!-- CONTACT -->
+    <div class="footer-col contact">
+      <h3>Contact Us</h3>
+
+      <p>📞 +91 7893024466</p>
+      <p>✉ support@shippzi.com</p>
+      <p>📍 CoWork Trendz, Capital Park,<br> Madhapur, Telangana, India</p>
+    </div>
+
+  </div>
+
+  <!-- BOTTOM -->
+  <div class="footer-bottom">
+    © 2026 Shippzi Pvt Ltd. All Rights Reserved.
+  </div>
+
+</footer>
+
+<script src="js/main.js"></script>
+<script src="js/counter.js"></script>
+</body>
+</html>
